@@ -1,0 +1,102 @@
+.edd-fes-submissions-manager-wrapper {
+    width: 100%;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.edd-fes-submissions-manager-wrapper:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.edd-fes-submissions-manager-column {
+    float: left;
+    width: 100%;
+}
+
+.edd-fes-submissions-manager-box {
+    min-width: 255px;
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+    margin: 0 12px 20px 12px;
+}
+
+.edd-fes-submissions-manager-box .edd-fes-submissions-manager-title {
+    margin: 0 0 6px 0;
+    padding: 8px 12px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.edd-fes-submissions-manager-box .edd-fes-submissions-manager-title:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.edd-fes-submissions-manager-box .edd-fes-submissions-manager-title .title {
+    float: left;
+    font-weight: 500;
+    margin: 0;
+}
+
+.edd-fes-submissions-manager-box .edd-fes-submissions-manager-title .vendor {
+    float: right;
+}
+
+.edd-fes-submissions-manager-box .edd-fes-submissions-manager-title a {
+    text-decoration: none;
+}
+
+.edd-fes-submissions-manager-box .edd-fes-submissions-manager-content {
+    padding: 0 12px;
+}
+
+.edd-fes-submissions-manager-box .edd-fes-submissions-manager-content .field-label {
+    font-weight: 500;
+}
+
+.edd-fes-submissions-manager-box .edd-fes-submissions-manager-content .field-value {
+    margin-bottom: 6px;
+    min-height: 18px;
+}
+
+.edd-fes-submissions-manager-box .edd-fes-submissions-manager-content a {
+    text-decoration: none;
+}
+
+.edd-fes-submissions-manager-box .edd-fes-submissions-manager-footer {
+    text-align: right;
+    margin: 6px 0 0 0;
+    padding: 5px 12px;
+    border-top: 1px solid #e5e5e5;
+}
+
+.edd-fes-submissions-manager-box .edd-fes-submissions-manager-footer .button {
+    height: 24px;
+    padding: 0px 8px 0px;
+}
+
+@media( min-width: 1024px ) {
+    .edd-fes-submissions-manager-column {
+        width: 50%;
+    }
+}
+
+@media( max-width: 1199px ) and ( min-width: 1024px ) {
+    .edd-fes-submissions-manager-wrapper .edd-fes-submissions-manager-column:nth-child(2n+1) {
+        clear: both;
+    }
+}
+
+@media( min-width: 1200px ) {
+    .edd-fes-submissions-manager-column {
+        width: 33.33333333%;
+    }
+
+    .edd-fes-submissions-manager-wrapper .edd-fes-submissions-manager-column:nth-child(3n+1) {
+        clear: both;
+    }
+}
