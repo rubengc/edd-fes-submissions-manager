@@ -11,16 +11,17 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 EDD Frontend submissions reviews made easy
 
 == Description ==
+
 This plugin requires [Easy Digital Downloads](http://wordpress.org/extend/plugins/easy-digital-downloads/ "Easy Digital Downloads") v2.3 or greater.
 
 Once activated, EDD FES Submissions Manager will add a new admin page that facilitates the review of pending submissions under FES menu.
 
 How it works:
 To improve your experience reviewing submissions, EDD FES Submissions Manager will distribute the pending submissions into cards.
-Each card will containt information about vendor, same FES submissions form and buttons to edit, view, approve o decline this submission.
+Each card contains information about vendor, same FES submissions form and buttons to edit, view, approve o decline this submission.
 Easy, right?
 
-So, thnaks to this new distribution, EDD FES Submissions Manager will save you a lot of time reviewing new submissions!
+So, thanks to this new distribution, EDD FES Submissions Manager will save you a lot of time reviewing new submissions!
 
 There's a [GIT repository](https://github.com/rubengc/edd-fes-submissions-manager) too if you want to contribute a patch.
 
@@ -37,6 +38,8 @@ OR you can just install it with WordPress by going to Plugins >> Add New >> and 
 == Frequently Asked Questions ==
 
 == Screenshots ==
+
+1. Screenshot of EDD FES Submissions Manager page
 
 == Upgrade Notice ==
 
